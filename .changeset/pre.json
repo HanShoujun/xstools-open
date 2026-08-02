@@ -4,5 +4,33 @@
   "initialVersions": {
     "@xstools/utility": "0.24.1"
   },
-  "changesets": []
+  "changesets": [
+    "brave-format-polish",
+    "brave-format-soft",
+    "brave-maps-whisper",
+    "brave-sample-substring",
+    "bright-predicate-polish",
+    "calm-intervals-param",
+    "calm-promise-sleep",
+    "calm-strings-orbit",
+    "clear-error-docs",
+    "crisp-array-object",
+    "crisp-bytes-options",
+    "easy-pigs-drum",
+    "fix-getTag-undefined",
+    "good-lemons-build",
+    "green-squids-repair",
+    "mild-array-rank",
+    "mild-coral-garden",
+    "mild-util-attempt",
+    "quick-uuid25-logic",
+    "quiet-arrays-harbor",
+    "quiet-exception-sunset",
+    "quiet-exports-polish",
+    "quiet-object-polish",
+    "sharp-business-district",
+    "sharp-business-docs",
+    "soft-string-docs",
+    "soft-string-nullish"
+  ]
 }

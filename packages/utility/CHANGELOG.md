@@ -1,5 +1,67 @@
 # @xstools/utility
 
+## 1.0.0-beta.0
+
+### Major Changes
+
+- [`3f41534`](https://github.com/bingtsingw/xstools-open/commit/3f41534644029d1ccdd0de0ac7edf61ab2bb3c4b) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 1.0-beta
+
+### Minor Changes
+
+- [`f092798`](https://github.com/bingtsingw/xstools-open/commit/f09279876de0a6faa198b3406ef06a1a568ef23f) Thanks [@bingtsingw](https://github.com/bingtsingw)! - formatCurrency 非有限按 0 处理；starlize\* 支持 MaybeString
+
+- [`86695a2`](https://github.com/bingtsingw/xstools-open/commit/86695a2b05e0c75869d248e4e35671f1fc22b84c) Thanks [@bingtsingw](https://github.com/bingtsingw)! - weightedSample / subString 改抛 ParamError
+
+- [`a1de4fc`](https://github.com/bingtsingw/xstools-open/commit/a1de4fc90fb49bfc152bc5941bd3146732e03464) Thanks [@bingtsingw](https://github.com/bingtsingw)! - areIntervalsOverlap 无效区间改抛 ParamError
+
+- [`e3ff134`](https://github.com/bingtsingw/xstools-open/commit/e3ff134e9360964118844e32b5fe1b0dd45e073e) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 优化error文档、isTaggedError语义
+
+- [`8a69483`](https://github.com/bingtsingw/xstools-open/commit/8a694831fbf440845dfd29fb51fb52f6ff7d9f44) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 新增 array/xor 与 object/omitBy
+
+- [`e91b4ec`](https://github.com/bingtsingw/xstools-open/commit/e91b4ec00781fd3a11b52045f74fbf3be99bbffb) Thanks [@bingtsingw](https://github.com/bingtsingw)! - formatBytes 可选 decimals 改为 options 对象
+
+- [`7ce9084`](https://github.com/bingtsingw/xstools-open/commit/7ce908499496fa746e36ddb78d06eed519922ac5) Thanks [@bingtsingw](https://github.com/bingtsingw)! - add object/pick
+
+- [`13d79f5`](https://github.com/bingtsingw/xstools-open/commit/13d79f51e05666bc093f2fe4fd3d1e3a7b39d2b5) Thanks [@bingtsingw](https://github.com/bingtsingw)! - add weightedSample
+
+- [`c37ea16`](https://github.com/bingtsingw/xstools-open/commit/c37ea1677328c17a163d947cc6c5e1973eee450a) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 优化array模块
+
+- [`770e82d`](https://github.com/bingtsingw/xstools-open/commit/770e82de84d61259dd33a47a0e3476db0cb3bbc0) Thanks [@bingtsingw](https://github.com/bingtsingw)! - uuid25 assert 改抛 LogicError
+
+- [`784098c`](https://github.com/bingtsingw/xstools-open/commit/784098c907f3f2fef30160f998ee6db7ae0a654d) Thanks [@bingtsingw](https://github.com/bingtsingw)! - remove legacy exception module; use @xstools/utility/error instead
+
+- [`b0abfea`](https://github.com/bingtsingw/xstools-open/commit/b0abfea130d93e876683547f46a15b197422e1d8) Thanks [@bingtsingw](https://github.com/bingtsingw)! - getDistance 改抛 ParamError；districtStartWith 重命名为 isDistrictAcceptable
+
+- [`b8c218b`](https://github.com/bingtsingw/xstools-open/commit/b8c218bb0cb86ac54c584e232b58c92f227a159f) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 优化business模块
+
+### Patch Changes
+
+- [`b8972a7`](https://github.com/bingtsingw/xstools-open/commit/b8972a7abceecbfec90065bd8fb9a3d75dcf9672) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 清理 formatCurrency 死选项 F2Y，并加固 formatBytes 非法数值兜底
+
+- [`da9cdb6`](https://github.com/bingtsingw/xstools-open/commit/da9cdb695f3078a5199ebe74c130f71af4c3fd22) Thanks [@bingtsingw](https://github.com/bingtsingw)! - fix empty Map/Set checks and align predicate export style
+
+- [`ae5754d`](https://github.com/bingtsingw/xstools-open/commit/ae5754d2bc152d0c58a0419f0d0d3f307cb52ccd) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 完善 predicate 文档与边界；isArguments 签名改为 (value: unknown)；isError 复用 getTag
+
+- [`5c2e53f`](https://github.com/bingtsingw/xstools-open/commit/5c2e53f284c341e52ddd122009fd64ad1c403b75) Thanks [@bingtsingw](https://github.com/bingtsingw)! - sleep 对非法 ms 按 0 处理
+
+- [`f22c152`](https://github.com/bingtsingw/xstools-open/commit/f22c152e686207664a7a0d22be3d963c9357656f) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 优化`string`相关函数健壮性
+
+- [`96657ef`](https://github.com/bingtsingw/xstools-open/commit/96657efc021c1c4db69480d68e0f3cde4c42dc4b) Thanks [@bingtsingw](https://github.com/bingtsingw)! - correct getTag undefined branch
+
+- [`5ee12ed`](https://github.com/bingtsingw/xstools-open/commit/5ee12ed0a46a49eb4adf349569eafd1b3451a6ad) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 完善`get`的逻辑, 处理edge case
+
+- [`601440e`](https://github.com/bingtsingw/xstools-open/commit/601440ef7829383c9231d562cfdcf90554db4f34) Thanks [@bingtsingw](https://github.com/bingtsingw)! - attempt / attemptAsync 改为 const，并补齐 E 默认与非 Error 测试
+
+- [`c94cc89`](https://github.com/bingtsingw/xstools-open/commit/c94cc89d26b066de09d37f7a1e85de2fefc5575a) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 将 rankByPath 改为纯函数，并统一 sample 参数为 readonly
+
+- [`35e5a30`](https://github.com/bingtsingw/xstools-open/commit/35e5a3092d90db7b759feddf3380db643e7c3dfe) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 完善 \_exports 文档与 cuid2 长度边界
+
+- [`0b48ac3`](https://github.com/bingtsingw/xstools-open/commit/0b48ac37accb32be6ff38c25ce50425567b6e535) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 完善 object JSDoc；pick 非 object soft-fail；统一 hasOwnProperty；omitBy 注明不含 symbol
+
+- [`2f6117b`](https://github.com/bingtsingw/xstools-open/commit/2f6117b0b31be66b63838f8774d782fd109f07b7) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 优化`string`模块
+
+- [`9e52e7b`](https://github.com/bingtsingw/xstools-open/commit/9e52e7b1da139c7f7ac3c009125103b061fcbb22) Thanks [@bingtsingw](https://github.com/bingtsingw)! - 统一 string 域 nullish 入参，并导出 MaybeString 类型
+
 ## 0.24.1
 
 ### Patch Changes
