@@ -1,6 +1,6 @@
 {
   "name": "@xstools/utility",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bingtsingw/xstools-open.git",
@@ -21,6 +21,10 @@
     "./date-fns": {
       "types": "./dist/_exports/date-fns/index.d.ts",
       "default": "./dist/_exports/date-fns/index.js"
+    },
+    "./date-fns/locale": {
+      "types": "./dist/_exports/date-fns/locale/index.d.ts",
+      "default": "./dist/_exports/date-fns/locale/index.js"
     },
     "./nanoid": {
       "types": "./dist/_exports/nanoid/index.d.ts",
